@@ -63,19 +63,22 @@ Sri Lankan railway network.
 
 ### 4️⃣ Data-Driven Accident & Blind-Spot Prediction  
 **Owner: Pramodya W.S.C – IT22026170**
+Collection of:
+  - Real-time GPS data (speed, location)
+  - IMU sensor data (acceleration, tilt, roll, yaw)
+  - Track geometry information (curves, gradients)
+  - Operational parameters (braking patterns, speed limits)
+    
+Machine-learning models (Decision Tree, Random Forest, etc.) to:
+  - Detect overspeeding on curves
+  - Identify abnormal tilt angles and harsh braking events
+  - Classify train operating conditions into Safe, Warning, and Dangerous levels
 
-- Collection of:
-  - Historical accident records
-  - Weather data
-  - Track geometry
-  - Operational parameters (speed, timetable, maintenance, etc.)
-- Machine-learning models (RF, SVM, ANN, etc.) to:
-  - Identify **high-risk segments & blind spots**
-  - Predict accident probability under given conditions
-- Risk scores are sent to the main system to:
-  - Prioritize maintenance
-  - Adjust speed limits and scheduling
-  - Support decision-making for Sri Lanka Railways
+Risk scores are sent to the main system to:
+  - Provide immediate audio-visual warnings to train operators
+  - Log incidents for post-trip safety analysis
+  - Support preventive safety actions and operational decision-making for Sri Lanka Railways
+
 
 ---
 
